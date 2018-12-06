@@ -1,0 +1,50 @@
+{
+  "name": "melbourne",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curated pubs for curious individuals in Melbourne",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShandyClub/melbourne.git"
+  },
+  "keywords": [],
+  "author": "Shandy Club <cheers@shandy.club>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShandyClub/melbourne/issues"
+  },
+  "homepage": "https://github.com/ShandyClub/melbourne#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-styled-components": "^1.9.2",
+    "eslint": "^5.9.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix \"pages/**/*.js\"",
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
