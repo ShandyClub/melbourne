@@ -1,8 +1,7 @@
 {
   "name": "melbourne",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "Curated pubs for curious individuals in Melbourne",
   "scripts": {
     "build": "next build",
     "dev": "next",
@@ -10,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShandyClub/melbourne.git"
+    "url": "git+https://github.com/fresh-as/melbourne.git"
   },
   "keywords": [],
-  "author": "Shandy Club <cheers@shandy.club>",
+  "author": "Luke Hedger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ShandyClub/melbourne/issues"
+    "url": "https://github.com/fresh-as/melbourne/issues"
   },
-  "homepage": "https://github.com/ShandyClub/melbourne#readme",
+  "homepage": "https://github.com/fresh-as/melbourne#readme",
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "styled-components": "^4.1.2"
+    "next": "7.0.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "styled-components": "4.1.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

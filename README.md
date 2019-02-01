@@ -1,3 +1,3 @@
 <p align='center'>
-  <img src='https://cloud.githubusercontent.com/assets/1913316/21065430/0f34a09a-be58-11e6-81a7-89ad74e2b1fb.jpg' width='200'/>
+  <img width="285" alt="fresh as" src="https://user-images.githubusercontent.com/1913316/52131506-cf532b80-2634-11e9-93ef-3decc8b54bb1.png">
 </p>
