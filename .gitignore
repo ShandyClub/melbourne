@@ -16,7 +16,4 @@ Thumbs.db
 # Dependencies #
 ######################
 node_modules/
-
-# Cache #
-######################
-.next
+web_modules/

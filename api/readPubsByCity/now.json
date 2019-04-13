@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "read-pubs-by-city",
+  "builds": [{ "src": "*.go", "use": "@now/go" }],
+  "alias": ["read-pubs-by-city.freshas.beer"]
+}

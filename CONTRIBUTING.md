@@ -1,17 +1,7 @@
 # Contributing
 
-## Setup
-```sh
-npm install
-```
+## Run
 
-## Develop
 ```sh
-npm run dev
-```
-
-## Release
-```sh
-npm run build
-npm start
+docker-compose up
 ```

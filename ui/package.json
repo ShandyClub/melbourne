@@ -1,0 +1,17 @@
+{
+  "name": "fresh-as-ui",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "prepare": "pika-web --clean --optimize --dest public/web_modules",
+    "start": "serve -l 3000 public"
+  },
+  "devDependencies": {
+    "@pika/web": "0.4.2",
+    "serve": "11.0.0"
+  },
+  "dependencies": {
+    "lit-html": "1.0.0"
+  }
+}
